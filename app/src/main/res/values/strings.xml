@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Biologipedia</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="help_1">1. Untuk mengetahui penjelasan atau detail, pilih istilah sesuai keinginan anda.</string>
+    <string name="help_2">2. Untuk melakukan pencarian, ketik istilah yang akan dicari pada Search Bar. Setelah itu pilih tombol cari, maka akan muncul hasil pencarian.</string>
+    <string name="help_3">3. Pada Search Bar terdapat tombol microphone yang berfungsi untuk melakukan pencarian menggunakan pengenalan suara (Speech recognition).</string>
+    <string name="help_4">4. Pilihan menu bisa diakses dengan memilih tombol yang berada di pojok kanan atas.</string>
+    <string name="help_5">5. Untuk melihat kembali semua daftar istilah, pilih tombol refresh.</string>
+    <string name="judul">RANCANG BANGUN APLIKASI ENSIKLOPEDIA BIOLOGI MENGGUNAKAN ALGORITMA PENCARIAN STRING BOYER-MOORE DENGAN FITUR SPEECH RECOGNITION</string>
+    <string name="biodata">EKO YULIANTO 2012081052</string>
+    <string name="biodata2">TEKNIK INFORMATIKA S1        UNIVERSITAS KUNINGAN</string>
+    <string name="title_activity_admin">AdminActivity</string>
+</resources>

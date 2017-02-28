@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="10dp"
+    android:paddingTop="5dp"
+    android:paddingRight="10dp"
+    android:paddingLeft="10dp"
+    android:background="@drawable/border_shadow2"
+    android:orientation="vertical">
+
+    <com.skripsi.ekoyulianto.biologipedia.CustomFont.CustomTextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Istilah"
+        android:textStyle="bold"
+        android:textAllCaps="true"
+        android:textColor="@color/colorPrimary"
+        android:textSize="12dp" />
+
+    <com.skripsi.ekoyulianto.biologipedia.CustomFont.CustomTextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:lines="1"
+        android:text="Pengertian" />
+</LinearLayout>

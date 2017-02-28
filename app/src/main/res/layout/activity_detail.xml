@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFE6E6E6"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="10dp">
+
+            <com.skripsi.ekoyulianto.biologipedia.CustomFont.CustomTextView
+                android:id="@+id/textIstilah"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageView"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="31dp"
+                android:text="Istilah"
+                android:background="@drawable/border_shadow2"
+                android:textAllCaps="true"
+                android:textSize="17dp"
+                android:textStyle="bold" />
+
+            <com.skripsi.ekoyulianto.biologipedia.CustomFont.CustomTextView
+                android:id="@+id/textArti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textIstilah"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="14dp"
+                android:padding="10dp"
+                android:background="@drawable/border_shadow2"
+                android:text="Deskripsi"
+                android:textSize="12dp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="23dp"
+                android:src="@mipmap/ic_launcher" />
+        </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
